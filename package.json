@@ -1,0 +1,20 @@
+{
+  "name": "todoappbadar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BADARAHMEDSHEIKH/todoAppBadar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BADARAHMEDSHEIKH/todoAppBadar/issues"
+  },readme
+  "homepage": "https://github.com/BADARAHMEDSHEIKH/todoAppBadar#"
+}
