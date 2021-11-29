@@ -32,9 +32,15 @@ class TodoCollection {
     removeComplete() {
         this.itemMap.forEach(item => {
             if (item.complete) {
-                this.itemMap.delete((item.id + 1));
+                this.itemMap.delete((item.id));
             }
         });
+    }
+    getItemCounts() {
+        return {
+            total: this.itemMap.size,
+            incomplete: this.getTodoItems(false).length
+        };
     }
 }
 exports.TodoCollection = TodoCollection;

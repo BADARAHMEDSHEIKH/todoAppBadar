@@ -11,8 +11,12 @@ let todos = [
     new todoItem_1.TodoItem(3, "Collect Tickets"), new todoItem_1.TodoItem(4, "Call Joe", true)
 ];
 let collection = new todoCollection_1.TodoCollection("Adam", todos);
-console.clear();
+collection.addTodo("badar11");
+//console.clear();
+console.log(`${collection.userName}'s Todo List `
+    + `(${collection.getItemCounts().incomplete} items to do22 \n)`
+    + `(${collection.getItemCounts().total} items total22)`);
 console.log(`${collection.userName}'s Todo List`);
-//collection.addTodo(todoItem);
+collection.addTodo("badar22");
 collection.getTodoItems(true).forEach(item => item.printDetails());
 collection.removeComplete();
