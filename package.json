@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/BADARAHMEDSHEIKH/todoAppBadar/issues"
   },
-  "homepage": "https://github.com/BADARAHMEDSHEIKH/todoAppBadar#readme"
+  "homepage": "https://github.com/BADARAHMEDSHEIKH/todoAppBadar#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
